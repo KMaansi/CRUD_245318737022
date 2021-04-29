@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <title>Couturier Wear</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h1 class="c1">Couturier Inventory Management</h1>
+
+    <h3><a href="/create" class="c2">Add New Product</a></h3>
+    <h3><a href="/updatestock" class="c2">Update Stock</a></h3>
+    <h3><a href="/deleteproduct" class="c2">Delete Product</a></h3>
+    <h2>Welcome To Couturier</h2>
+
+    <p>Couturier is a Indian company known for its clothing & footwear in men and women.Couturier operates in 20 countries with 500 stores.
+        Couturier is a fast-fashion company and products include clothing,shoes,loafers,accessories like backpacks.
+    It was founded in 2000 as Choice and it was officially launched as Coutourier in 2002. </p>
+    <p>Couturier is also speciallized in customizing according to the customer's choice.
+        It varies according to the choice and selections.  
+    </p>
+
+    
+    <center>
+    <table>
+    <tr>
+        <th>Product ID</th>
+        <th>Category</th>
+        <th>Type</th>
+        <th>Size</th>
+        <th>Stock</th>
+        <th>Price</th>
+    </tr>
+    <% for(var i=0;i<data.length;i++) {%>
+    <tr>
+        <td><%= data[i].pid %></td>
+        <td><%= data[i].category %></td>
+        <td><%= data[i].type %></td>
+        <td><%= data[i].size %></td>
+        <td><%= data[i].stock %></td>
+        <td><%= data[i].price %></td>
+    </tr>
+    <% } %>    
+    
+
+    </table>
+    </center>
+</body>
+</html>

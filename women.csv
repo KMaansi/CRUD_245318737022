@@ -1,0 +1,11 @@
+pid,category,type,size,stock,price
+101,clothes,tops,"S,M,L",30,500
+102,clothes,skirts,"S,M,L",20,1500
+103,clothes,jumpsuits,L,30,3000
+104,clothes,jeans,"S,M,L",50,1000
+105,clothes,hoodies,"S,M",60,1200
+201,footwear,boots,6,10,2500
+202,footwear,slides,8,50,900
+203,footwear,sneakers,6,20,3000
+301,accessories,backpack,nosize,10,1200
+302,accessories,face mask,nosize,20,500
